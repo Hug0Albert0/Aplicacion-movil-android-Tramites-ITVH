@@ -33,4 +33,15 @@
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="65dp" />
 
+    <Button
+        android:id="@+id/btnValidacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnlogin"
+        android:layout_alignStart="@+id/btnlogin"
+        android:layout_below="@+id/btnlogin"
+        android:layout_marginTop="13dp"
+        android:onClick="lanzarvalidacion"
+        android:text="Validacion" />
+
 </RelativeLayout>
