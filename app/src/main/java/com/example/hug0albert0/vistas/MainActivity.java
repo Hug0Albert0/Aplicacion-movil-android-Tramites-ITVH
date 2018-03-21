@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btnLogin,btnValidacion;
+    private Button btnLogin,btnValidacion,btnCredenciales;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnLogin = findViewById(R.id.btnlogin);
         btnValidacion= findViewById(R.id.btnValidacion);
+        btnCredenciales=findViewById(R.id.btnCredenciales);
     }
 
 
@@ -27,5 +28,11 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent iValidacion = new Intent(this, validacion.class);
         startActivity(iValidacion);
+    }
+
+    public void lanzarcredenciales(View view)
+    {
+        Intent iCredenciales = new Intent(this,credenciales.class);
+        startActivity(iCredenciales);
     }
 }
