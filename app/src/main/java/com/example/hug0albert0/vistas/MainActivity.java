@@ -35,4 +35,11 @@ public class MainActivity extends AppCompatActivity {
         Intent iCredenciales = new Intent(this,credenciales.class);
         startActivity(iCredenciales);
     }
+
+
+    public void lanzarRecuperar(View view)
+    {
+        Intent iRec = new Intent(this,recuperar.class);
+        startActivity(iRec);
+    }
 }

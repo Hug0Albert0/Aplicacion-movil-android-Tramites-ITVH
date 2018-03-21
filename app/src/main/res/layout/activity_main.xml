@@ -42,7 +42,7 @@
         android:layout_below="@+id/btnlogin"
         android:layout_marginTop="13dp"
         android:onClick="lanzarvalidacion"
-        android:text="Validacion" />
+        android:text="@string/validacion" />
 
     <Button
         android:id="@+id/btnCredenciales"
@@ -53,6 +53,17 @@
         android:layout_below="@+id/btnValidacion"
         android:layout_marginTop="16dp"
         android:onClick="lanzarcredenciales"
-        android:text="Credenciales" />
+        android:text="@string/credenciales" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCredenciales"
+        android:layout_alignStart="@+id/btnCredenciales"
+        android:layout_below="@+id/btnCredenciales"
+        android:layout_marginTop="15dp"
+        android:onClick="lanzarRecuperar"
+        android:text="@string/recuperar" />
 
 </RelativeLayout>

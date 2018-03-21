@@ -12,4 +12,7 @@
     <string name="crear_cuenta">Crear Cuenta</string>
     <string name="todo">TODO</string>
     <string name="ingresa_tu_numero_de_control">Ingresa tu Número de Control</string>
+    <string name="validacion">Validacion</string>
+    <string name="credenciales">Credenciales</string>
+    <string name="recuperar">Recuperar</string>
 </resources>
