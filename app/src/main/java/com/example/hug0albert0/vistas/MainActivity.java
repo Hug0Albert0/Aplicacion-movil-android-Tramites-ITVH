@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btnLogin,btnValidacion,btnCredenciales;
+    private Button btnLogin,btnValidacion,btnCredenciales,btnProblemas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnlogin);
         btnValidacion= findViewById(R.id.btnValidacion);
         btnCredenciales=findViewById(R.id.btnCredenciales);
+        btnProblemas=findViewById(R.id.btnProb);
     }
 
 
@@ -40,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
     public void lanzarRecuperar(View view)
     {
         Intent iRec = new Intent(this,recuperar.class);
+        startActivity(iRec);
+    }
+
+    public void lanzarProblemas(View view)
+    {
+        Intent iRec = new Intent(this,problemas.class);
         startActivity(iRec);
     }
 }

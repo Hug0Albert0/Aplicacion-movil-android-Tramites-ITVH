@@ -1,9 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.hug0albert0.vistas.problemas">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="@string/tengo_un_problema"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/para_nuestro_equipo_es_importante_brindarte_el_mejor_servicio_para_que_tengas_una_buena_experiencia_de_usuario"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/que_problema_presenta_tu_tr_mite"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_centerVertical="true"
+        android:id="@+id/frameLayout2">
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/ic_launcher_background"
+            android:defaultFocusHighlightEnabled="?android:attr/windowSwipeToDismiss" tools:targetApi="o">
+
+        </ExpandableListView>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:text="@string/enviar" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/frameLayout2"
+        android:layout_alignLeft="@+id/frameLayout2"
+        android:layout_alignRight="@+id/frameLayout2"
+        android:layout_alignStart="@+id/frameLayout2"
+        android:layout_below="@+id/frameLayout2"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/envianos_tus_comentarios"
+        android:inputType="textMultiLine"
+        android:textSize="14sp" />
+</RelativeLayout>

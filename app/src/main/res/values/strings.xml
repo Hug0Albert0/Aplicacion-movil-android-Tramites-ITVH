@@ -15,4 +15,9 @@
     <string name="validacion">Validacion</string>
     <string name="credenciales">Credenciales</string>
     <string name="recuperar">Recuperar</string>
+    <string name="tengo_un_problema">Tengo un problema</string>
+    <string name="para_nuestro_equipo_es_importante_brindarte_el_mejor_servicio_para_que_tengas_una_buena_experiencia_de_usuario">Para nuestro equipo es importante brindarte el mejor servicio para que tengas una buena experiencia de usuario</string>
+    <string name="que_problema_presenta_tu_tr_mite">¿Que problema presenta tu trámite?</string>
+    <string name="enviar">Enviar</string>
+    <string name="envianos_tus_comentarios">Envianos tus comentarios</string>
 </resources>
