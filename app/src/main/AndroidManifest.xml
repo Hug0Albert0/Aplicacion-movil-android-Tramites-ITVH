@@ -23,7 +23,7 @@
         <activity android:name=".tramitesAgendados" />
         <activity android:name=".detallesCita" />
         <activity android:name=".problemas" />
-        <activity android:name=".servicefeedback" />
+        <activity android:name=".serviceFeedback" />
         <activity android:name=".avisos" />
         <activity android:name=".catalogoTramites" />
         <activity android:name=".informacionTramite"></activity>

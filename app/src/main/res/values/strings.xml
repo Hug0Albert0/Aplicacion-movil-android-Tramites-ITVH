@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">Vistas</string>
     <string name="vistas_para_el_proyecto">Vistas para el Proyecto</string>
+    <string name="login">Login</string>
+    <string name="inicia_sesion">Inicia Sesión</string>
+    <string name="numero_de_control">Numero de Control</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="recordarme">Recordarme</string>
+    <string name="olvid_su_contrase_a">¿Olvidó su contraseña?</string>
+    <string name="entrar">Entrar</string>
+    <string name="eres_usuario_nuevo_nete">¿Eres usuario nuevo? Únete!</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="todo">TODO</string>
+    <string name="ingresa_tu_numero_de_control">Ingresa tu Número de Control</string>
+    <string name="validacion">Validacion</string>
+    <string name="credenciales">Credenciales</string>
+    <string name="recuperar">Recuperar</string>
+    <string name="tengo_un_problema">Tengo un problema</string>
+    <string name="para_nuestro_equipo_es_importante_brindarte_el_mejor_servicio_para_que_tengas_una_buena_experiencia_de_usuario">Para nuestro equipo es importante brindarte el mejor servicio para que tengas una buena experiencia de usuario</string>
+    <string name="que_problema_presenta_tu_tr_mite">¿Que problema presenta tu trámite?</string>
+    <string name="enviar">Enviar</string>
+    <string name="envianos_tus_comentarios">Envianos tus comentarios</string>
+    <string name="aviso_fechas_de_inscripcion_publicadas">AVISO: Fechas de inscripcion publicadas</string>
+    <string name="mundo">Mundo</string>
+    <string name="hola">Hola</string>
 </resources>
