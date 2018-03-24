@@ -20,4 +20,7 @@
     <string name="que_problema_presenta_tu_tr_mite">¿Que problema presenta tu trámite?</string>
     <string name="enviar">Enviar</string>
     <string name="envianos_tus_comentarios">Envianos tus comentarios</string>
+    <string name="aviso_fechas_de_inscripcion_publicadas">AVISO: Fechas de inscripcion publicadas</string>
+    <string name="mundo">Mundo</string>
+    <string name="hola">Hola</string>
 </resources>

@@ -77,4 +77,15 @@
         android:onClick="lanzarProblemas"
         android:text="Tengo un probelma" />
 
+    <Button
+        android:id="@+id/btnAvisos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnProb"
+        android:layout_alignStart="@+id/btnProb"
+        android:layout_below="@+id/btnProb"
+        android:layout_marginTop="16dp"
+        android:onClick="lanzarAvisos"
+        android:text="Avisos" />
+
 </RelativeLayout>
